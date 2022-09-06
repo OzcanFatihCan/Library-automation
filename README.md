@@ -1,5 +1,5 @@
 # Library-automation / Kütüphane Otomasyonu
-Otomasyonu kullanabilmek için, aşağıdaki uygulamaları yüklemelisiniz:
+Otomasyonu kullanabilmek için, kurulması gereken uygulamalar:
 Composer
 Breeze
 XAMPP
@@ -23,7 +23,7 @@ ID: abcbcd@gmail.com password:1234
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-To be able to use automation, you must install the following applications:
+Applications that need to be installed to use automation:
 
 Composer
 Breeze
