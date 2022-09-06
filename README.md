@@ -8,7 +8,7 @@ Laravel
 Node js
 Visual Studio Code
 
-Dosyaları indirdikten sonra,
+Uygulamaları ve dosyaları indirdikten sonra,
 Laraveli kurmak için Visual Studio Code içerisinde komut satırına composer create-project laravel/laravel kutuphane yazmamız gerekiyor. Bu işlemle birlikte
 xampp/htdocs içerisinde bir laravel dosyası oluşturulur. İçerisine indirilen Library dosyasını aktarınız.
 
@@ -34,7 +34,7 @@ Node js
 Visual Studio Code
 
 
-After downloading apps,
+After downloading apps and file,
 To install laravel, you have to write composer create-project laravel/laravel kutuphane on the command line in VSC. Then import the loaded "library" file.
 
 Start apache and mysqli via Xampp. From here, you can access Phpmyadmin and import the library.sql file you downloaded.
