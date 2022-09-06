@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 24 Ağu 2022, 23:29:41
+-- Üretim Zamanı: 06 Eyl 2022, 15:18:51
 -- Sunucu sürümü: 10.4.24-MariaDB
 -- PHP Sürümü: 8.1.6
 
@@ -42,11 +42,10 @@ CREATE TABLE `actions` (
 --
 
 INSERT INTO `actions` (`id`, `user_id`, `kitap_id`, `k_verilis_tarih`, `k_teslim_tarih`, `created_at`, `updated_at`) VALUES
-(6, 10, 38, '2022-08-15', '2022-08-30', '2022-08-15 09:10:04', '2022-08-15 09:10:04'),
-(7, 8, 40, '2022-08-15', '2022-08-26', '2022-08-15 09:10:22', '2022-08-15 09:10:22'),
-(8, 4, 42, '2022-08-12', '2022-08-24', '2022-08-15 09:16:05', '2022-08-15 09:16:05'),
-(9, 5, 47, '2022-08-17', '2022-09-01', '2022-08-17 03:47:42', '2022-08-17 03:47:42'),
-(10, 4, 54, '2022-08-03', '2022-08-25', '2022-08-23 10:17:15', '2022-08-23 10:17:15');
+(11, 11, 43, '2022-09-22', '2022-09-30', '2022-09-06 06:41:02', '2022-09-06 06:41:02'),
+(13, 12, 56, '2022-09-24', '2022-09-30', '2022-09-06 06:41:38', '2022-09-06 06:41:38'),
+(14, 13, 45, '2022-09-10', '2022-09-30', '2022-09-06 06:41:58', '2022-09-06 06:41:58'),
+(15, 13, 59, '2022-09-18', '2022-09-29', '2022-09-06 06:42:33', '2022-09-06 06:42:33');
 
 -- --------------------------------------------------------
 
@@ -269,10 +268,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `phone`, `address`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `role`) VALUES
-(4, 'Özcan Fatih', 'Can', 'fatihbuzac@gmail.com', NULL, '', '2022-07-28 10:00:03', '$2y$10$85KRrHoTx0NAifVuqCcoXO8hhBqF6h3P2aIk4KqCczZeUWCcC1feW', NULL, '2022-07-28 09:59:42', '2022-07-28 10:00:03', 1),
-(5, 'Yunus', 'Bakış', 'fatih--can1903@hotmail.com', '5377343707', 'istanbul/arnavutköy', '2022-07-29 08:02:15', '$2y$10$8vlL6tGNWNgg9Fxepui5uukA1Zqs8RBFULRo8D8FXWIFVB9CfMkDm', NULL, '2022-07-29 08:01:24', '2022-08-01 10:33:15', 3),
-(8, 'pervin', 'ürün', 'pervin@gmail.com', NULL, 'istanbul/gaziosmanpaşa', '2022-08-02 03:32:08', '$2y$10$zHXvXiyNJRkG43alk.aybe7m.lMJQX.fwiWcBvHAnJk8oOXsXQoaa', NULL, '2022-08-02 03:32:08', '2022-08-02 03:32:08', 1),
-(10, 'Arif', 'Golgeci', 'kayit_msn_74@hotmail.com', '5397397862', 'istanbul/gop', '2022-08-08 07:07:35', '$2y$10$oSX6H..42ukBk0kjbhceHOG1cj/49qUgd9a.llEABV2wrplK5UmBu', NULL, '2022-08-08 07:07:13', '2022-08-08 07:09:43', 2);
+(11, 'xyz', 'yvz', 'xyzyvz@gmail.com', '5555555555', 'istanbul/başakşehir', '2022-09-06 06:34:52', '$2y$10$gdts4YuzA4I1Jm6EUWZ2/O6.MO6ruzAciliek01kfQBiX3t43Uau2', NULL, '2022-09-06 06:34:52', '2022-09-06 06:35:26', 1),
+(12, 'abc', 'bcd', 'abcbcd@gmail.com', '5555455555', 'istanbul/gaziosmanpaşa', '2022-09-06 06:36:08', '$2y$10$I122sWobHWZHrlU/9zYSe.rlj6x4Syr0ClK3JmM8U1GXyBHG5KvtW', NULL, '2022-09-06 06:36:08', '2022-09-06 06:36:23', 3),
+(13, 'klm', 'lmn', 'klmlmn@gmail.com', '5555555545', 'istanbul/ataköy', '2022-09-06 06:39:09', '$2y$10$KsZJE614Rz6kSmjtSVJfO.q4Pv0dn5dMwOJnJcUb/EiLo77RjWd.O', NULL, '2022-09-06 06:39:09', '2022-09-06 06:39:32', 2),
+(14, 'cobe', 'vew', 'cobevew778@laluxy.com', '5555855555', 'istanbul/başakşehir', '2022-09-06 06:51:24', '$2y$10$US3GtlyNHO7JRFA1eQlSjelrH7/Y50qAIzzOVC9NKN8UipPhYgSeK', NULL, '2022-09-06 06:51:24', '2022-09-06 07:00:08', 3),
+(15, 'jkm', 'kjm', 'gkftlyxomntzntaqpm@kvhrr.com', '5555555465', 'istanbul/ataköy', '2022-09-06 06:58:34', '$2y$10$aH6.1CISfWdHLO2CNxz3BOvV2NsC3q.xTsl1O0P0bKgEGMuYE2m2i', NULL, '2022-09-06 06:57:25', '2022-09-06 07:00:27', 1);
 
 -- --------------------------------------------------------
 
@@ -446,7 +446,7 @@ ALTER TABLE `writer_books`
 -- Tablo için AUTO_INCREMENT değeri `actions`
 --
 ALTER TABLE `actions`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `books`
@@ -488,7 +488,7 @@ ALTER TABLE `publishers`
 -- Tablo için AUTO_INCREMENT değeri `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `writers`
