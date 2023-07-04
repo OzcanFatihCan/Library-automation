@@ -21,6 +21,8 @@ Sisteme giriş yapabilmek için 2 tip rolümüz bulunmakta. Aşağıdaki bilgile
 ID: xyxyvz@gmail.com password:1234
 ID: abcbcd@gmail.com password:1234
 
+Bu repositories içerisinde kütüphanede yapılabilecek olan işlevleri içermektedir.
+Kitap ekleme, ödünç kitap verme, Kitap silme, yazarlar vs.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
@@ -34,16 +36,17 @@ Node js
 Visual Studio Code
 
 
-After downloading apps and file,
-To install laravel, you have to write composer create-project laravel/laravel kutuphane on the command line in VSC. Then import the loaded "library" file.
+After downloading the applications and files, you need to open Visual Studio Code and enter the command composer create-project laravel/laravel library in the command line to install Laravel. This process creates a Laravel file in xampp/htdocs. Transfer the downloaded Library files into this folder.
 
-Start apache and mysqli via Xampp. From here, you can access Phpmyadmin and import the library.sql file you downloaded.
+Start Apache and MySQLi through XAMPP. Access phpMyAdmin from there and import the library.sql file that you downloaded.
 
-Install node js. Type npm install & npm run dev in the command line in VSC. This process enables the login-exit page to be activated for our system.
+After the import is complete, to enable input and output for automation using Node.js, call the library file within Visual Studio Code and enter npm install & npm run dev in the console.
 
-There are 2 types of roles to enter automation. You can log in to the system using the information below.
-ID: xyxyvz@gmail.com password:1234
+There are two types of roles to log in to the system. By entering the following information, you can perform login and logout operations: 
+ID: xyxyvz@gmail.com password:1234 
 ID: abcbcd@gmail.com password:1234
+
+These repo contain the functionalities that can be performed in the library, such as adding books, lending books, deleting books, authors, etc.
 
 
 ![automation photo1](https://raw.githubusercontent.com/OzcanFatihCan/Library-automation/main/Foto%C4%9Fraflar/Admin%20Anasayfas%C4%B1.JPG)
