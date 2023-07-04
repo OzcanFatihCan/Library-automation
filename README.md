@@ -22,7 +22,7 @@ ID: xyxyvz@gmail.com password:1234
 ID: abcbcd@gmail.com password:1234
 
 Bu repositories içerisinde kütüphanede yapılabilecek olan işlevleri içermektedir.
-Kitap ekleme, ödünç kitap verme, Kitap silme, yazarlar vs.
+Kitap ekleme, ödünç kitap verme, kitap silme, yazarlar vs.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
