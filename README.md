@@ -21,7 +21,7 @@ Sisteme giriş yapabilmek için 2 tip rolümüz bulunmakta. Aşağıdaki bilgile
 ID: xyxyvz@gmail.com password:1234
 ID: abcbcd@gmail.com password:1234
 
-Bu repositories içerisinde kütüphanede yapılabilecek olan işlevleri içermektedir.
+Bu repo içerisinde kütüphanede yapılabilecek olan işlevleri içermektedir.
 Kitap ekleme, ödünç kitap verme, kitap silme, yazarlar vs.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
